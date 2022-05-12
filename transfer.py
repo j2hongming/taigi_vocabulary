@@ -46,7 +46,7 @@ def generate_markdown(raw_file):
                 m = meaning[0] if meaning else None
                 f_md.writelines([f'## {voc_no_idx} [{name}](https://itaigi.tw/k/{name})\n'])
                 f_md.writelines([f'- {m}\n'])
-                f_md.writelines([f'- {v}\n'])
+                f_md.writelines([f'- [{v}](https://language.moe.gov.tw/upload/download/jts/02%E8%AA%9E%E8%A9%9E1(%E9%9F%B3%E6%AA%94)/0201_{voc_no_idx}_B.mp3)\n'])
                 f_md.writelines([f'- [pronunciation](https://language.moe.gov.tw/upload/download/jts/02%E8%AA%9E%E8%A9%9E1(%E9%9F%B3%E6%AA%94)/0201_{voc_no_idx}_A.mp3)\n'])
                 f_md.writelines(['\n'])
 
